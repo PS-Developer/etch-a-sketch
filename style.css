@@ -1,0 +1,22 @@
+body {
+    margin: 0 auto; /* Horizontally center everything */
+    max-width: 800px; /* Optional: set a max-width for better readability */
+}
+
+.gridlines {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px; 
+  }
+  
+.grid {
+width: calc(100% / 16);
+height: 20px; /* Adjust the height as needed */
+box-sizing: border-box;
+border: 1px solid #000; 
+filter: brightness(100%);
+}
+  
+.gridSelection {
+    padding-bottom: 10px;
+}
